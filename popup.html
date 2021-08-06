@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <span class="mainTitle" id="mainTitle"></span>
+
+        <div class="search-input">
+            <input placeholder="Type to search.." type="text">
+            <div class="autocomplete-box">
+                <!-- here list are inserted from javascript -->
+            </div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+
+        </div>
+
+        <p id="selectedText"></p>
+
+        <!-- scripts -->
+        <script src="popup.js"></script>
+        <script src="autocomplete.js"></script>
+        <script type="module" src="recover_NASDAQ.js"></script> <!-- module is used for the import keyword -->
+
+    </body>
+
+</html>
